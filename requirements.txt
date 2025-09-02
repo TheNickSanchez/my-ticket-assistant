@@ -1,0 +1,8 @@
+click>=8.1
+rich>=13.7
+requests>=2.32
+pydantic>=2.7
+python-dotenv>=1.0
+openai>=1.40
+ollama>=0.3
+typing_extensions>=4.12

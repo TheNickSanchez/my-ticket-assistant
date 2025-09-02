@@ -1,0 +1,60 @@
+[
+  {
+    "id": "10001",
+    "key": "SEC-2847",
+    "summary": "CVE-2024-1984 - SSO authentication bypass vulnerability",
+    "priority": "High",
+    "severity": 2,
+    "status": "To Do",
+    "created_at": "2025-08-29T21:00:08.159527Z",
+    "updated_at": "2025-08-31T21:00:08.159546Z",
+    "comments_count": 0,
+    "labels": [
+      "security",
+      "CVE",
+      "sev2"
+    ],
+    "issue_type": "Bug",
+    "blocking_count": 3,
+    "reporter": "Security Bot",
+    "assignee": "You"
+  },
+  {
+    "id": "10002",
+    "key": "DEV-1923",
+    "summary": "Database migration failing in staging",
+    "priority": "Medium",
+    "severity": 3,
+    "status": "In Progress",
+    "created_at": "2025-08-31T21:00:08.159550Z",
+    "updated_at": "2025-09-02T15:00:08.159552Z",
+    "comments_count": 2,
+    "labels": [
+      "backend"
+    ],
+    "issue_type": "Task",
+    "blocking_count": 1,
+    "reporter": "CI System",
+    "assignee": "You"
+  },
+  {
+    "id": "10003",
+    "key": "OPS-447",
+    "summary": "CEO mentioned: VPN client crashing after sleep",
+    "priority": "High",
+    "severity": 3,
+    "status": "To Do",
+    "created_at": "2025-09-01T21:00:08.159557Z",
+    "updated_at": "2025-09-02T09:00:08.159560Z",
+    "comments_count": 0,
+    "labels": [
+      "exec",
+      "vip",
+      "client"
+    ],
+    "issue_type": "Bug",
+    "blocking_count": 0,
+    "reporter": "Helpdesk",
+    "assignee": "You"
+  }
+]
