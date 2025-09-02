@@ -5,7 +5,7 @@ from rich.table import Table
 from rich.panel import Panel
 from rich.markdown import Markdown
 
-from src.config.settings import SETTINGS
+from config.settings import SETTINGS
 from src.ticket_fetcher import TicketFetcher
 from src.work_assistant import WorkAssistant
 from src.action_handler import ActionHandler

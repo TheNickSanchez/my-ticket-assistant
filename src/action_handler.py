@@ -4,7 +4,7 @@ import requests
 from typing import Optional
 from .models import CVEDetails, Script, Ticket, Result
 from .llm_client import LLMClient
-from .config.settings import SETTINGS
+from config.settings import SETTINGS
 
 ART_DIR = os.path.join(os.path.dirname(__file__), "..", "artifacts")
 os.makedirs(ART_DIR, exist_ok=True)

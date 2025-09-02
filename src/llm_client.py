@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import List, Optional
 from .models import Ticket, CVEDetails, Script
-from .config.settings import SETTINGS
+from config.settings import SETTINGS
 
 class LLMClient:
     def analyze(self, tickets: List[Ticket]) -> str:

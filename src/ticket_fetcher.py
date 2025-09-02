@@ -4,7 +4,7 @@ from typing import List
 from datetime import datetime
 import requests
 from .models import Ticket, TicketDetail
-from .config.settings import SETTINGS
+from config.settings import SETTINGS
 
 CACHE_FILE = os.path.join(os.path.dirname(__file__), "..", ".ticket_cache.json")
 
